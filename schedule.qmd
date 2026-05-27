@@ -2,7 +2,7 @@
 title: "Schedule"
 ---
 
-24 weeks, ~5 sessions/week. Start: **Mon 2026-06-01**. End: **Sun 2026-11-15**.
+60 weeks, ~5 sessions/week. Start: **Mon 2026-06-01**. End: **Sun 2027-07-25**.
 
 The schedule is a target, not a contract. Real life slips; the right response is to shift the calendar, not to skip the daily handwriting session. Fluency, not speed.
 
@@ -24,43 +24,44 @@ The schedule is a target, not a contract. Real life slips; the right response is
 
 Low-energy day swap: Strogatz (*Nonlinear Dynamics*) or Mahajan (*Street-Fighting Mathematics*) in place of the primary text. Don't skip; substitute.
 
-## Phase 1 — Linear Algebra (Axler), 6 weeks
+## Phase 1 — Linear Algebra (Axler), 15 weeks
 
 Goal: formalize and sharpen what's already intuitive from applied work. First phase, lower cognitive load, locks in the daily habit before analysis gets hard.
 
-| Week | Dates | Material |
+| Weeks | Dates | Material |
 |---|---|---|
-| 1 | Jun 1 – Jun 7 | Axler Ch 1 — Vector spaces |
-| 2 | Jun 8 – Jun 14 | Axler Ch 2 — Finite-dimensional vector spaces, bases, dimension |
-| 3 | Jun 15 – Jun 21 | Axler Ch 3A — Linear maps, null space, range |
-| 4 | Jun 22 – Jun 28 | Axler Ch 3B–4 — Matrices, invertibility, polynomials |
-| 5 | Jun 29 – Jul 5 | Axler Ch 5 — Eigenvalues, eigenvectors, invariant subspaces |
-| 6 | Jul 6 – Jul 12 | Axler Ch 6 — Inner product spaces; review week |
+| 1–3 | Jun 1 – Jun 21, 2026 | Axler Ch 1 — Vector spaces |
+| 4–5 | Jun 22 – Jul 5 | Axler Ch 2 — Finite-dimensional vector spaces, bases, dimension |
+| 6–7 | Jul 6 – Jul 19 | Axler Ch 3A — Linear maps, null space, range |
+| 8–10 | Jul 20 – Aug 9 | Axler Ch 3B–4 — Matrices, invertibility, polynomials |
+| 11–13 | Aug 10 – Aug 30 | Axler Ch 5 — Eigenvalues, eigenvectors, invariant subspaces |
+| 14–15 | Aug 31 – Sep 13 | Axler Ch 6 — Inner product spaces; review week |
 
 Cross-reference: Strang for geometric matrix pictures; Lang when you want the algebraic generalization.
 
-## Phase 2 — Real Analysis (Abbott), 8 weeks
+## Phase 2 — Real Analysis (Abbott), 20 weeks
 
 Goal: ε–δ and limit machinery that Rosenthal assumes. The proof fluency from Axler carries over.
 
-| Week | Dates | Material |
+| Weeks | Dates | Material |
 |---|---|---|
-| 7–8 | Jul 13 – Jul 26 | Abbott Ch 1 — Real numbers, completeness, cardinality |
-| 9–10 | Jul 27 – Aug 9 | Abbott Ch 2 — Sequences and series |
-| 11–12 | Aug 10 – Aug 23 | Abbott Ch 3 — Topology of ℝ |
-| 13–14 | Aug 24 – Sep 6 | Abbott Ch 4 — Functional limits, continuity |
+| 16–20 | Sep 14 – Oct 18, 2026 | Abbott Ch 1 — Real numbers, completeness, cardinality |
+| 21–25 | Oct 19 – Nov 22 | Abbott Ch 2 — Sequences and series |
+| 26–30 | Nov 23, 2026 – Dec 27, 2026 | Abbott Ch 3 — Topology of ℝ |
+| 31–35 | Dec 28, 2026 – Jan 31, 2027 | Abbott Ch 4 — Functional limits, continuity |
 
-## Phase 3 — Measure-Theoretic Probability (Rosenthal), 10 weeks
+## Phase 3 — Measure-Theoretic Probability (Rosenthal), 25 weeks
 
 The original goal. Direct payoff for Bayesian modeling, sequential trials, conditional expectation as the right way to think about posteriors.
 
-| Week | Dates | Material |
+| Weeks | Dates | Material |
 |---|---|---|
-| 15–16 | Sep 7 – Sep 20 | Rosenthal Ch 1 — Probability triples, σ-algebras |
-| 17–18 | Sep 21 – Oct 4 | Rosenthal Ch 2 — Extension of measures |
-| 19–20 | Oct 5 – Oct 18 | Rosenthal Ch 3 — Random variables, expected value, Lebesgue integral |
-| 21–22 | Oct 19 – Nov 1 | Rosenthal Ch 4 — Convergence theorems (MCT, DCT, Fatou) |
-| 23–24 | Nov 2 – Nov 15 | Rosenthal Ch 5–6 — Independence, conditional expectation |
+| 36–39 | Feb 1 – Feb 28, 2027 | Rosenthal Ch 1 — Probability triples, σ-algebras |
+| 40–43 | Mar 1 – Mar 28 | Rosenthal Ch 2 — Extension of measures |
+| 44–48 | Mar 29 – May 2 | Rosenthal Ch 3 — Random variables, expected value, Lebesgue integral |
+| 49–53 | May 3 – Jun 6 | Rosenthal Ch 4 — Convergence theorems (MCT, DCT, Fatou) |
+| 54–57 | Jun 7 – Jul 4 | Rosenthal Ch 5 — Independence |
+| 58–60 | Jul 5 – Jul 25 | Rosenthal Ch 6 — Conditional expectation |
 
 After Phase 3: martingales (Williams) → optional stopping → sequential trial design. Or Radon-Nikodym → likelihood as a density. Pick at the time based on what's pulling.
 
@@ -69,6 +70,7 @@ After Phase 3: martingales (Williams) → optional stopping → sequential trial
 Run alongside the phase work, no fixed schedule beyond "Friday by default."
 
 - **Needham — *Visual Complex Analysis*.** Chs 1–5 to start. Geometric instinct, low activation energy.
+- **Osgood — *Lectures on the Fourier Transform and Its Applications*.** Stanford EE 261. Intuition + rigor, signal-processing applications, distributions and sampling. Friday substitute when Needham isn't pulling.
 - **Strogatz — *Nonlinear Dynamics and Chaos*.** Browse-driven; pick a chapter when curious.
 - **Mahajan — *Street-Fighting Mathematics*.** One problem per low-energy session. Counterweight to formalism.
 

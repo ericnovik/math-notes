@@ -23,7 +23,7 @@ A few hours of delay between handwriting and typing is better than back-to-back 
 - **Sat** — synthesis note for the week
 - **Sun** — off
 
-See [Schedule](schedule.qmd) for the 24-week plan and [each phase](linear-algebra/index.qmd) for the concept list.
+See [Schedule](schedule.qmd) for the 60-week plan and [each phase](linear-algebra/index.qmd) for the concept list.
 
 ## Repo layout
 
@@ -31,13 +31,14 @@ See [Schedule](schedule.qmd) for the 24-week plan and [each phase](linear-algebr
 math-notes/
 ├── _quarto.yml
 ├── index.qmd               # this file
-├── schedule.qmd            # 24-week plan
+├── schedule.qmd            # 60-week plan
 ├── _templates/
 │   └── concept.qmd         # copy this for each new concept
 ├── linear-algebra/         # Phase 1 — Axler
 ├── real-analysis/          # Phase 2 — Abbott
 ├── measure-theory/         # Phase 3 — Rosenthal
 ├── complex-analysis/       # Parallel — Needham
+├── fourier-analysis/       # Parallel — Osgood
 ├── nonlinear-dynamics/     # Parallel — Strogatz
 ├── estimation/             # Parallel — Mahajan
 └── notebook/               # photographs of handwritten pages

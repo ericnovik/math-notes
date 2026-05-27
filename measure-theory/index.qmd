@@ -4,7 +4,7 @@ title: "Measure-Theoretic Probability — Rosenthal"
 
 **Primary text.** Jeffrey Rosenthal, *A First Look at Rigorous Probability Theory*.
 
-**Phase window.** 2026-09-07 → 2026-11-15. ~10 weeks.
+**Phase window.** 2027-02-01 → 2027-07-25. ~25 weeks (~6 months).
 
 **Why.** The original target of this whole effort. Direct payoff for Bayesian modeling (posteriors as conditional expectations, Radon-Nikodym as likelihoods), sequential trial design (martingales, optional stopping), and limit theorems used routinely without their measure-theoretic justification.
 

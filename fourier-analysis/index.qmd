@@ -1,0 +1,15 @@
+---
+title: "Fourier Analysis — Osgood"
+---
+
+**Text.** Brad Osgood, *Lectures on the Fourier Transform and Its Applications* (Stanford EE 261 notes).
+
+**Mode.** Parallel track. Self-paced; pick a chapter when a phase week feels heavy, or use as a Friday substitute when Needham isn't pulling.
+
+**Why.** Osgood's lectures are the rare text that gives both the *intuition* (heat equation, signal processing, the symmetry between time and frequency) and the *rigor* (distributions, Schwartz class, sampling theorem). Geometric and applied — a natural fit alongside Needham. Direct connections to deconvolution, frequency-domain identification, and any time-series work in PK/PD.
+
+## Concepts
+
+| # | Concept | Date | Status |
+|---|---|---|---|
+| 001 | — | | |

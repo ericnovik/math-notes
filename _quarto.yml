@@ -23,6 +23,9 @@ book:
     - part: "Parallel — Complex Analysis (Needham)"
       chapters:
         - complex-analysis/index.qmd
+    - part: "Parallel — Fourier Analysis (Osgood)"
+      chapters:
+        - fourier-analysis/index.qmd
     - part: "Parallel — Nonlinear Dynamics (Strogatz)"
       chapters:
         - nonlinear-dynamics/index.qmd
