@@ -1,0 +1,265 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Math Notes",
+    "section": "",
+    "text": "0.1 Goal\nA personal math wiki. One concept per day, 30–60 minutes, written by hand first and then transferred to a .qmd file here.\nBuild measure-theoretic probability fluency the long way around: linear algebra fluency first (Axler), then real analysis (Abbott), then probability proper (Rosenthal). Parallel tracks (Needham, Strogatz, Mahajan) keep the geometric and physical instincts alive on lower-energy days.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#workflow",
+    "href": "index.html#workflow",
+    "title": "Math Notes",
+    "section": "0.2 Workflow",
+    "text": "0.2 Workflow\n\nSession — 30–45 min on paper. Read the concept. Work an example. Draw the diagram. Write the definition in your own words. The friction is the point.\nTransfer — 15–20 min later. Open a new .qmd from _templates/concept.qmd. Fill in Statement → Intuition → Example → Counterexample → Connection to work. The template surfaces what you don’t yet understand.\nPhotograph the notebook page and drop it in notebook/. Embed alongside the typeset version.\n\nA few hours of delay between handwriting and typing is better than back-to-back — the slight forgetting pressure is useful.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#cadence",
+    "href": "index.html#cadence",
+    "title": "Math Notes",
+    "section": "0.3 Cadence",
+    "text": "0.3 Cadence\n\nMon–Thu — primary text, one concept per day\nFri — Needham (or another parallel track)\nSat — synthesis note for the week\nSun — off\n\nSee Schedule for the 24-week plan and each phase for the concept list.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "index.html#repo-layout",
+    "href": "index.html#repo-layout",
+    "title": "Math Notes",
+    "section": "0.4 Repo layout",
+    "text": "0.4 Repo layout\nmath-notes/\n├── _quarto.yml\n├── index.qmd               # this file\n├── schedule.qmd            # 24-week plan\n├── _templates/\n│   └── concept.qmd         # copy this for each new concept\n├── linear-algebra/         # Phase 1 — Axler\n├── real-analysis/          # Phase 2 — Abbott\n├── measure-theory/         # Phase 3 — Rosenthal\n├── complex-analysis/       # Parallel — Needham\n├── nonlinear-dynamics/     # Parallel — Strogatz\n├── estimation/             # Parallel — Mahajan\n└── notebook/               # photographs of handwritten pages\nRender locally with quarto preview.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Preface</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "2  Schedule",
+    "section": "",
+    "text": "2.1 Daily routine\n24 weeks, ~5 sessions/week. Start: Mon 2026-06-01. End: Sun 2026-11-15.\nThe schedule is a target, not a contract. Real life slips; the right response is to shift the calendar, not to skip the daily handwriting session. Fluency, not speed.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html#daily-routine",
+    "href": "schedule.html#daily-routine",
+    "title": "2  Schedule",
+    "section": "",
+    "text": "Block\nTime\nWhat\n\n\n\n\nSession\n30–45 min\nHandwritten in the dedicated notebook. Read concept, work example, write definition.\n\n\nTransfer\n15–20 min, hours later\nCopy from _templates/concept.qmd, fill in cleanly, photograph notebook page into notebook/.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html#weekly-rhythm",
+    "href": "schedule.html#weekly-rhythm",
+    "title": "2  Schedule",
+    "section": "2.2 Weekly rhythm",
+    "text": "2.2 Weekly rhythm\n\n\n\n\n\n\n\nDay\nFocus\n\n\n\n\nMon–Thu\nPrimary text (current phase)\n\n\nFri\nNeedham — Visual Complex Analysis\n\n\nSat\nSynthesis note — one paragraph tying the week’s concepts together\n\n\nSun\nOff\n\n\n\nLow-energy day swap: Strogatz (Nonlinear Dynamics) or Mahajan (Street-Fighting Mathematics) in place of the primary text. Don’t skip; substitute.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html#phase-1-linear-algebra-axler-6-weeks",
+    "href": "schedule.html#phase-1-linear-algebra-axler-6-weeks",
+    "title": "2  Schedule",
+    "section": "2.3 Phase 1 — Linear Algebra (Axler), 6 weeks",
+    "text": "2.3 Phase 1 — Linear Algebra (Axler), 6 weeks\nGoal: formalize and sharpen what’s already intuitive from applied work. First phase, lower cognitive load, locks in the daily habit before analysis gets hard.\n\n\n\n\n\n\n\n\nWeek\nDates\nMaterial\n\n\n\n\n1\nJun 1 – Jun 7\nAxler Ch 1 — Vector spaces\n\n\n2\nJun 8 – Jun 14\nAxler Ch 2 — Finite-dimensional vector spaces, bases, dimension\n\n\n3\nJun 15 – Jun 21\nAxler Ch 3A — Linear maps, null space, range\n\n\n4\nJun 22 – Jun 28\nAxler Ch 3B–4 — Matrices, invertibility, polynomials\n\n\n5\nJun 29 – Jul 5\nAxler Ch 5 — Eigenvalues, eigenvectors, invariant subspaces\n\n\n6\nJul 6 – Jul 12\nAxler Ch 6 — Inner product spaces; review week\n\n\n\nCross-reference: Strang for geometric matrix pictures; Lang when you want the algebraic generalization.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html#phase-2-real-analysis-abbott-8-weeks",
+    "href": "schedule.html#phase-2-real-analysis-abbott-8-weeks",
+    "title": "2  Schedule",
+    "section": "2.4 Phase 2 — Real Analysis (Abbott), 8 weeks",
+    "text": "2.4 Phase 2 — Real Analysis (Abbott), 8 weeks\nGoal: ε–δ and limit machinery that Rosenthal assumes. The proof fluency from Axler carries over.\n\n\n\n\n\n\n\n\nWeek\nDates\nMaterial\n\n\n\n\n7–8\nJul 13 – Jul 26\nAbbott Ch 1 — Real numbers, completeness, cardinality\n\n\n9–10\nJul 27 – Aug 9\nAbbott Ch 2 — Sequences and series\n\n\n11–12\nAug 10 – Aug 23\nAbbott Ch 3 — Topology of ℝ\n\n\n13–14\nAug 24 – Sep 6\nAbbott Ch 4 — Functional limits, continuity",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html#phase-3-measure-theoretic-probability-rosenthal-10-weeks",
+    "href": "schedule.html#phase-3-measure-theoretic-probability-rosenthal-10-weeks",
+    "title": "2  Schedule",
+    "section": "2.5 Phase 3 — Measure-Theoretic Probability (Rosenthal), 10 weeks",
+    "text": "2.5 Phase 3 — Measure-Theoretic Probability (Rosenthal), 10 weeks\nThe original goal. Direct payoff for Bayesian modeling, sequential trials, conditional expectation as the right way to think about posteriors.\n\n\n\n\n\n\n\n\nWeek\nDates\nMaterial\n\n\n\n\n15–16\nSep 7 – Sep 20\nRosenthal Ch 1 — Probability triples, σ-algebras\n\n\n17–18\nSep 21 – Oct 4\nRosenthal Ch 2 — Extension of measures\n\n\n19–20\nOct 5 – Oct 18\nRosenthal Ch 3 — Random variables, expected value, Lebesgue integral\n\n\n21–22\nOct 19 – Nov 1\nRosenthal Ch 4 — Convergence theorems (MCT, DCT, Fatou)\n\n\n23–24\nNov 2 – Nov 15\nRosenthal Ch 5–6 — Independence, conditional expectation\n\n\n\nAfter Phase 3: martingales (Williams) → optional stopping → sequential trial design. Or Radon-Nikodym → likelihood as a density. Pick at the time based on what’s pulling.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html#parallel-tracks",
+    "href": "schedule.html#parallel-tracks",
+    "title": "2  Schedule",
+    "section": "2.6 Parallel tracks",
+    "text": "2.6 Parallel tracks\nRun alongside the phase work, no fixed schedule beyond “Friday by default.”\n\nNeedham — Visual Complex Analysis. Chs 1–5 to start. Geometric instinct, low activation energy.\nStrogatz — Nonlinear Dynamics and Chaos. Browse-driven; pick a chapter when curious.\nMahajan — Street-Fighting Mathematics. One problem per low-energy session. Counterweight to formalism.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "schedule.html#progress",
+    "href": "schedule.html#progress",
+    "title": "2  Schedule",
+    "section": "2.7 Progress",
+    "text": "2.7 Progress\nTrack concept count per phase in each phase’s index.qmd. The render gives a live progress view; the commit log gives the receipts.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Schedule</span>"
+    ]
+  },
+  {
+    "objectID": "linear-algebra/index.html",
+    "href": "linear-algebra/index.html",
+    "title": "3  Linear Algebra — Axler",
+    "section": "",
+    "text": "3.1 Concepts\nPrimary text. Sheldon Axler, Linear Algebra Done Right.\nCompanions. Strang (Introduction to Linear Algebra) for geometric matrix pictures; Lang (Linear Algebra) for the algebraic generalization over arbitrary fields.\nPhase window. 2026-06-01 → 2026-07-12. ~6 weeks.\nWhy first. Axler formalizes what’s already intuitive from applied work (Cholesky, covariance geometry, eigendecompositions). Familiar ground means lower cognitive load, which is the right shape for establishing the daily habit before analysis gets genuinely hard.\nAppend as you go. Numbering is for ordering, not for hierarchy.",
+    "crumbs": [
+      "Phase 1 — Linear Algebra (Axler)",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Linear Algebra — Axler</span>"
+    ]
+  },
+  {
+    "objectID": "linear-algebra/index.html#concepts",
+    "href": "linear-algebra/index.html#concepts",
+    "title": "3  Linear Algebra — Axler",
+    "section": "",
+    "text": "#\nConcept\nDate\nStatus\n\n\n\n\n001\n—",
+    "crumbs": [
+      "Phase 1 — Linear Algebra (Axler)",
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Linear Algebra — Axler</span>"
+    ]
+  },
+  {
+    "objectID": "real-analysis/index.html",
+    "href": "real-analysis/index.html",
+    "title": "4  Real Analysis — Abbott",
+    "section": "",
+    "text": "4.1 Concepts\nPrimary text. Stephen Abbott, Understanding Analysis.\nPhase window. 2026-07-13 → 2026-09-06. ~8 weeks.\nWhy. Builds the ε–δ and limit machinery that Rosenthal assumes for measure-theoretic probability. Abbott is rigorous but intuition-first; not punishing.",
+    "crumbs": [
+      "Phase 2 — Real Analysis (Abbott)",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Real Analysis — Abbott</span>"
+    ]
+  },
+  {
+    "objectID": "real-analysis/index.html#concepts",
+    "href": "real-analysis/index.html#concepts",
+    "title": "4  Real Analysis — Abbott",
+    "section": "",
+    "text": "#\nConcept\nDate\nStatus\n\n\n\n\n001\n—",
+    "crumbs": [
+      "Phase 2 — Real Analysis (Abbott)",
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Real Analysis — Abbott</span>"
+    ]
+  },
+  {
+    "objectID": "measure-theory/index.html",
+    "href": "measure-theory/index.html",
+    "title": "5  Measure-Theoretic Probability — Rosenthal",
+    "section": "",
+    "text": "5.1 Concepts\nPrimary text. Jeffrey Rosenthal, A First Look at Rigorous Probability Theory.\nPhase window. 2026-09-07 → 2026-11-15. ~10 weeks.\nWhy. The original target of this whole effort. Direct payoff for Bayesian modeling (posteriors as conditional expectations, Radon-Nikodym as likelihoods), sequential trial design (martingales, optional stopping), and limit theorems used routinely without their measure-theoretic justification.",
+    "crumbs": [
+      "Phase 3 — Measure-Theoretic Probability (Rosenthal)",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measure-Theoretic Probability — Rosenthal</span>"
+    ]
+  },
+  {
+    "objectID": "measure-theory/index.html#concepts",
+    "href": "measure-theory/index.html#concepts",
+    "title": "5  Measure-Theoretic Probability — Rosenthal",
+    "section": "",
+    "text": "#\nConcept\nDate\nStatus\n\n\n\n\n001\n—",
+    "crumbs": [
+      "Phase 3 — Measure-Theoretic Probability (Rosenthal)",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measure-Theoretic Probability — Rosenthal</span>"
+    ]
+  },
+  {
+    "objectID": "measure-theory/index.html#after-phase-3",
+    "href": "measure-theory/index.html#after-phase-3",
+    "title": "5  Measure-Theoretic Probability — Rosenthal",
+    "section": "5.2 After Phase 3",
+    "text": "5.2 After Phase 3\nTwo natural continuations, choose at the time:\n\nMartingales → Williams, Probability with Martingales. Optional stopping, sequential trials.\nRadon-Nikodym → densities, likelihoods, change of measure. Direct line back to Bayesian inference.",
+    "crumbs": [
+      "Phase 3 — Measure-Theoretic Probability (Rosenthal)",
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Measure-Theoretic Probability — Rosenthal</span>"
+    ]
+  },
+  {
+    "objectID": "complex-analysis/index.html",
+    "href": "complex-analysis/index.html",
+    "title": "6  Complex Analysis — Needham",
+    "section": "",
+    "text": "6.1 Concepts\nText. Tristan Needham, Visual Complex Analysis.\nMode. Friday parallel track. Chs 1–5 to start (geometry of complex functions, Möbius transformations, differentiation as amplitwist).\nWhy. Keeps the geometric instinct alive while the primary phase is heads-down on proofs. Needham is the manifesto for intuition-over-symbol-pushing; perfect Friday material.",
+    "crumbs": [
+      "Parallel — Complex Analysis (Needham)",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Complex Analysis — Needham</span>"
+    ]
+  },
+  {
+    "objectID": "complex-analysis/index.html#concepts",
+    "href": "complex-analysis/index.html#concepts",
+    "title": "6  Complex Analysis — Needham",
+    "section": "",
+    "text": "#\nConcept\nDate\nStatus\n\n\n\n\n001\n—",
+    "crumbs": [
+      "Parallel — Complex Analysis (Needham)",
+      "<span class='chapter-number'>6</span>  <span class='chapter-title'>Complex Analysis — Needham</span>"
+    ]
+  },
+  {
+    "objectID": "nonlinear-dynamics/index.html",
+    "href": "nonlinear-dynamics/index.html",
+    "title": "7  Nonlinear Dynamics — Strogatz",
+    "section": "",
+    "text": "7.1 Concepts\nText. Steven Strogatz, Nonlinear Dynamics and Chaos.\nMode. Browse-driven; low-energy day substitute for the primary text. Pick a chapter when curious — fixed points, bifurcations, phase portraits, chaos.\nWhy. Physical intuition for dynamical systems; counterweight to pure formalism. Many concepts (stability, attractors, sensitivity) translate directly into how to read PK/PD and ODE-driven models.",
+    "crumbs": [
+      "Parallel — Nonlinear Dynamics (Strogatz)",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Nonlinear Dynamics — Strogatz</span>"
+    ]
+  },
+  {
+    "objectID": "nonlinear-dynamics/index.html#concepts",
+    "href": "nonlinear-dynamics/index.html#concepts",
+    "title": "7  Nonlinear Dynamics — Strogatz",
+    "section": "",
+    "text": "#\nConcept\nDate\nStatus\n\n\n\n\n001\n—",
+    "crumbs": [
+      "Parallel — Nonlinear Dynamics (Strogatz)",
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Nonlinear Dynamics — Strogatz</span>"
+    ]
+  },
+  {
+    "objectID": "estimation/index.html",
+    "href": "estimation/index.html",
+    "title": "8  Estimation — Mahajan",
+    "section": "",
+    "text": "8.1 Problems\nText. Sanjoy Mahajan, Street-Fighting Mathematics.\nMode. Practice mode, not a sequential curriculum. One problem per low-energy session. Dimensional analysis, easy cases, lumping, pictorial proofs, taking out the big part.\nWhy. Estimation is its own cognitive exercise — different from a Rosenthal proof and valuable for exactly that reason. 30 minutes on a Mahajan problem keeps the useful approximation muscle in shape.",
+    "crumbs": [
+      "Parallel — Estimation (Mahajan)",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Estimation — Mahajan</span>"
+    ]
+  },
+  {
+    "objectID": "estimation/index.html#problems",
+    "href": "estimation/index.html#problems",
+    "title": "8  Estimation — Mahajan",
+    "section": "",
+    "text": "#\nProblem\nDate\nStatus\n\n\n\n\n001\n—",
+    "crumbs": [
+      "Parallel — Estimation (Mahajan)",
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Estimation — Mahajan</span>"
+    ]
+  }
+]
