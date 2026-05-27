@@ -1,0 +1,77 @@
+---
+title: "Schedule"
+---
+
+24 weeks, ~5 sessions/week. Start: **Mon 2026-06-01**. End: **Sun 2026-11-15**.
+
+The schedule is a target, not a contract. Real life slips; the right response is to shift the calendar, not to skip the daily handwriting session. Fluency, not speed.
+
+## Daily routine
+
+| Block | Time | What |
+|---|---|---|
+| Session | 30–45 min | Handwritten in the dedicated notebook. Read concept, work example, write definition. |
+| Transfer | 15–20 min, hours later | Copy from `_templates/concept.qmd`, fill in cleanly, photograph notebook page into `notebook/`. |
+
+## Weekly rhythm
+
+| Day | Focus |
+|---|---|
+| Mon–Thu | Primary text (current phase) |
+| Fri | Needham — *Visual Complex Analysis* |
+| Sat | Synthesis note — one paragraph tying the week's concepts together |
+| Sun | Off |
+
+Low-energy day swap: Strogatz (*Nonlinear Dynamics*) or Mahajan (*Street-Fighting Mathematics*) in place of the primary text. Don't skip; substitute.
+
+## Phase 1 — Linear Algebra (Axler), 6 weeks
+
+Goal: formalize and sharpen what's already intuitive from applied work. First phase, lower cognitive load, locks in the daily habit before analysis gets hard.
+
+| Week | Dates | Material |
+|---|---|---|
+| 1 | Jun 1 – Jun 7 | Axler Ch 1 — Vector spaces |
+| 2 | Jun 8 – Jun 14 | Axler Ch 2 — Finite-dimensional vector spaces, bases, dimension |
+| 3 | Jun 15 – Jun 21 | Axler Ch 3A — Linear maps, null space, range |
+| 4 | Jun 22 – Jun 28 | Axler Ch 3B–4 — Matrices, invertibility, polynomials |
+| 5 | Jun 29 – Jul 5 | Axler Ch 5 — Eigenvalues, eigenvectors, invariant subspaces |
+| 6 | Jul 6 – Jul 12 | Axler Ch 6 — Inner product spaces; review week |
+
+Cross-reference: Strang for geometric matrix pictures; Lang when you want the algebraic generalization.
+
+## Phase 2 — Real Analysis (Abbott), 8 weeks
+
+Goal: ε–δ and limit machinery that Rosenthal assumes. The proof fluency from Axler carries over.
+
+| Week | Dates | Material |
+|---|---|---|
+| 7–8 | Jul 13 – Jul 26 | Abbott Ch 1 — Real numbers, completeness, cardinality |
+| 9–10 | Jul 27 – Aug 9 | Abbott Ch 2 — Sequences and series |
+| 11–12 | Aug 10 – Aug 23 | Abbott Ch 3 — Topology of ℝ |
+| 13–14 | Aug 24 – Sep 6 | Abbott Ch 4 — Functional limits, continuity |
+
+## Phase 3 — Measure-Theoretic Probability (Rosenthal), 10 weeks
+
+The original goal. Direct payoff for Bayesian modeling, sequential trials, conditional expectation as the right way to think about posteriors.
+
+| Week | Dates | Material |
+|---|---|---|
+| 15–16 | Sep 7 – Sep 20 | Rosenthal Ch 1 — Probability triples, σ-algebras |
+| 17–18 | Sep 21 – Oct 4 | Rosenthal Ch 2 — Extension of measures |
+| 19–20 | Oct 5 – Oct 18 | Rosenthal Ch 3 — Random variables, expected value, Lebesgue integral |
+| 21–22 | Oct 19 – Nov 1 | Rosenthal Ch 4 — Convergence theorems (MCT, DCT, Fatou) |
+| 23–24 | Nov 2 – Nov 15 | Rosenthal Ch 5–6 — Independence, conditional expectation |
+
+After Phase 3: martingales (Williams) → optional stopping → sequential trial design. Or Radon-Nikodym → likelihood as a density. Pick at the time based on what's pulling.
+
+## Parallel tracks
+
+Run alongside the phase work, no fixed schedule beyond "Friday by default."
+
+- **Needham — *Visual Complex Analysis*.** Chs 1–5 to start. Geometric instinct, low activation energy.
+- **Strogatz — *Nonlinear Dynamics and Chaos*.** Browse-driven; pick a chapter when curious.
+- **Mahajan — *Street-Fighting Mathematics*.** One problem per low-energy session. Counterweight to formalism.
+
+## Progress
+
+Track concept count per phase in each phase's `index.qmd`. The render gives a live progress view; the commit log gives the receipts.

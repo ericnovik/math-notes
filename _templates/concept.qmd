@@ -1,0 +1,38 @@
+---
+title: "Concept name"
+date: YYYY-MM-DD
+topic: linear-algebra            # or real-analysis, measure-theory, etc.
+source: "Axler §1.A"             # book and section
+status: draft                    # draft | reviewed
+tags: [vector-space]
+notebook-pages: [12, 13]
+---
+
+## Statement
+
+> Write the definition or theorem precisely. Include hypotheses. If a theorem, both the statement and a one-line gloss of what it gives you.
+
+## Intuition
+
+What is this concept *really* doing? One paragraph in your own words. If you can't write this without copying the book, the session isn't done.
+
+## Example
+
+A concrete instance, worked. Prefer something you can hold in your head over something maximally general.
+
+## Counterexample
+
+The case that shows why a hypothesis is needed, or that fails when the assumptions are relaxed. If there isn't a natural counterexample, write *why* the concept is unconditional.
+
+## Connection to work
+
+Where does this show up in Bayesian modeling, Stan, pharmacometrics, or a paper you've read? One bullet is enough; "none yet" is an honest answer.
+
+## Notebook
+
+![Notebook p. 12](../notebook/000-placeholder.jpg){width=60%}
+
+## References
+
+- Axler, *Linear Algebra Done Right*, §1.A
+- (other texts that cover this from a different angle)

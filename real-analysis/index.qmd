@@ -1,0 +1,15 @@
+---
+title: "Real Analysis — Abbott"
+---
+
+**Primary text.** Stephen Abbott, *Understanding Analysis*.
+
+**Phase window.** 2026-07-13 → 2026-09-06. ~8 weeks.
+
+**Why.** Builds the ε–δ and limit machinery that Rosenthal assumes for measure-theoretic probability. Abbott is rigorous but intuition-first; not punishing.
+
+## Concepts
+
+| # | Concept | Date | Status |
+|---|---|---|---|
+| 001 | — | | |

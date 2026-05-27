@@ -1,0 +1,15 @@
+---
+title: "Nonlinear Dynamics — Strogatz"
+---
+
+**Text.** Steven Strogatz, *Nonlinear Dynamics and Chaos*.
+
+**Mode.** Browse-driven; low-energy day substitute for the primary text. Pick a chapter when curious — fixed points, bifurcations, phase portraits, chaos.
+
+**Why.** Physical intuition for dynamical systems; counterweight to pure formalism. Many concepts (stability, attractors, sensitivity) translate directly into how to read PK/PD and ODE-driven models.
+
+## Concepts
+
+| # | Concept | Date | Status |
+|---|---|---|---|
+| 001 | — | | |

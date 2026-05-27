@@ -1,0 +1,22 @@
+---
+title: "Measure-Theoretic Probability — Rosenthal"
+---
+
+**Primary text.** Jeffrey Rosenthal, *A First Look at Rigorous Probability Theory*.
+
+**Phase window.** 2026-09-07 → 2026-11-15. ~10 weeks.
+
+**Why.** The original target of this whole effort. Direct payoff for Bayesian modeling (posteriors as conditional expectations, Radon-Nikodym as likelihoods), sequential trial design (martingales, optional stopping), and limit theorems used routinely without their measure-theoretic justification.
+
+## Concepts
+
+| # | Concept | Date | Status |
+|---|---|---|---|
+| 001 | — | | |
+
+## After Phase 3
+
+Two natural continuations, choose at the time:
+
+- **Martingales →** Williams, *Probability with Martingales*. Optional stopping, sequential trials.
+- **Radon-Nikodym →** densities, likelihoods, change of measure. Direct line back to Bayesian inference.

@@ -1,0 +1,15 @@
+---
+title: "Estimation — Mahajan"
+---
+
+**Text.** Sanjoy Mahajan, *Street-Fighting Mathematics*.
+
+**Mode.** *Practice mode*, not a sequential curriculum. One problem per low-energy session. Dimensional analysis, easy cases, lumping, pictorial proofs, taking out the big part.
+
+**Why.** Estimation is its own cognitive exercise — different from a Rosenthal proof and valuable for exactly that reason. 30 minutes on a Mahajan problem keeps the *useful approximation* muscle in shape.
+
+## Problems
+
+| # | Problem | Date | Status |
+|---|---|---|---|
+| 001 | — | | |

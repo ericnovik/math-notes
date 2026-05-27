@@ -1,0 +1,46 @@
+---
+title: "Preface"
+---
+
+A personal math wiki. One concept per day, 30–60 minutes, written by hand first and then transferred to a `.qmd` file here.
+
+## Goal
+
+Build measure-theoretic probability fluency the long way around: linear algebra fluency first (Axler), then real analysis (Abbott), then probability proper (Rosenthal). Parallel tracks (Needham, Strogatz, Mahajan) keep the geometric and physical instincts alive on lower-energy days.
+
+## Workflow
+
+1. **Session — 30–45 min on paper.** Read the concept. Work an example. Draw the diagram. Write the definition in your own words. The friction is the point.
+2. **Transfer — 15–20 min later.** Open a new `.qmd` from `_templates/concept.qmd`. Fill in *Statement → Intuition → Example → Counterexample → Connection to work*. The template surfaces what you don't yet understand.
+3. **Photograph the notebook page** and drop it in `notebook/`. Embed alongside the typeset version.
+
+A few hours of delay between handwriting and typing is better than back-to-back — the slight forgetting pressure is useful.
+
+## Cadence
+
+- **Mon–Thu** — primary text, one concept per day
+- **Fri** — Needham (or another parallel track)
+- **Sat** — synthesis note for the week
+- **Sun** — off
+
+See [Schedule](schedule.qmd) for the 24-week plan and [each phase](linear-algebra/index.qmd) for the concept list.
+
+## Repo layout
+
+```
+math-notes/
+├── _quarto.yml
+├── index.qmd               # this file
+├── schedule.qmd            # 24-week plan
+├── _templates/
+│   └── concept.qmd         # copy this for each new concept
+├── linear-algebra/         # Phase 1 — Axler
+├── real-analysis/          # Phase 2 — Abbott
+├── measure-theory/         # Phase 3 — Rosenthal
+├── complex-analysis/       # Parallel — Needham
+├── nonlinear-dynamics/     # Parallel — Strogatz
+├── estimation/             # Parallel — Mahajan
+└── notebook/               # photographs of handwritten pages
+```
+
+Render locally with `quarto preview`.

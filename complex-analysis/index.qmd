@@ -1,0 +1,15 @@
+---
+title: "Complex Analysis — Needham"
+---
+
+**Text.** Tristan Needham, *Visual Complex Analysis*.
+
+**Mode.** Friday parallel track. Chs 1–5 to start (geometry of complex functions, Möbius transformations, differentiation as amplitwist).
+
+**Why.** Keeps the geometric instinct alive while the primary phase is heads-down on proofs. Needham is the manifesto for intuition-over-symbol-pushing; perfect Friday material.
+
+## Concepts
+
+| # | Concept | Date | Status |
+|---|---|---|---|
+| 001 | — | | |

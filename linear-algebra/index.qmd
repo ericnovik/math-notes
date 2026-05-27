@@ -1,0 +1,19 @@
+---
+title: "Linear Algebra — Axler"
+---
+
+**Primary text.** Sheldon Axler, *Linear Algebra Done Right*.
+
+**Companions.** Strang (*Introduction to Linear Algebra*) for geometric matrix pictures; Lang (*Linear Algebra*) for the algebraic generalization over arbitrary fields.
+
+**Phase window.** 2026-06-01 → 2026-07-12. ~6 weeks.
+
+**Why first.** Axler formalizes what's already intuitive from applied work (Cholesky, covariance geometry, eigendecompositions). Familiar ground means lower cognitive load, which is the right shape for establishing the daily habit before analysis gets genuinely hard.
+
+## Concepts
+
+| # | Concept | Date | Status |
+|---|---|---|---|
+| 001 | — | | |
+
+Append as you go. Numbering is for ordering, not for hierarchy.

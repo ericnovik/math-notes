@@ -1,0 +1,15 @@
+/.quarto/
+/_book/
+/_freeze/
+/_site/
+*.html
+!index.html
+
+.DS_Store
+Thumbs.db
+
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
