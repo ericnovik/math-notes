@@ -13,3 +13,5 @@ Thumbs.db
 .RData
 .Ruserdata
 *.Rproj
+
+**/*.quarto_ipynb
